@@ -2598,12 +2598,25 @@ background: none repeat scroll 0 0 transparent;}
     margin: 0 auto;
     width: 260px;
 }
-
 #banner1 { /*-moz-border-image:url('images/slideborder.png') 0 0 27 0 stretch stretch; /* Old Firefox */
 /*-webkit-border-image:url('images/slideborder.png') 0 0 27 0 stretch stretch; /* Safari */
 /*-o-border-image:url('images/slideborder.png') 0 0 27 0 stretch stretch; /* Opera */
 /*border-image:url('images/slideborder.png') 0 0 27 0 stretch stretch;
 /*border-width: 0 0 27 0;*/
-    background: url('images/slideborder.png') 0 249px no-repeat #FFFFFF;
+    /*background: url('images/slideborder.png') 0 249px no-repeat #FFFFFF;*/
+	position: relative;
+	float: left;
+	width: 620px;
 }
+
+#slideright {
+    background: url('images/conig.png') no-repeat;
+	float: right;
+	width: 289px;
+	height: 381px;
+	}
+.bannerholder {    background: url('images/slideborder.png') 0 249px no-repeat #FFFFFF;
+	position: relative;
+	width: 950px;
+	}
 
