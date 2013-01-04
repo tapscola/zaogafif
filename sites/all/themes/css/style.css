@@ -2595,9 +2595,12 @@ background: none repeat scroll 0 0 transparent;}
 }
 .views-content-counter {padding: 10px 12px 10px 12px ;}
 .views-slideshow-controls-bottom {/*width: 569px; padding: 0 0 0 300px;*/
-    margin: 0 auto;
-    width: 260px;
+    /*margin: 0 auto;*/
+    /*width: 260px;*/
+    float: right;
+    width: 214px;
 }
+
 #banner1 { /*-moz-border-image:url('images/slideborder.png') 0 0 27 0 stretch stretch; /* Old Firefox */
 /*-webkit-border-image:url('images/slideborder.png') 0 0 27 0 stretch stretch; /* Safari */
 /*-o-border-image:url('images/slideborder.png') 0 0 27 0 stretch stretch; /* Opera */
@@ -2606,17 +2609,19 @@ background: none repeat scroll 0 0 transparent;}
     /*background: url('images/slideborder.png') 0 249px no-repeat #FFFFFF;*/
 	position: relative;
 	float: left;
-	width: 620px;
+	width: 560px;
+	margin: 10px;
 }
 
 #slideright {
-    background: url('images/conig.png') no-repeat;
-	float: right;
-	width: 289px;
-	height: 381px;
+    background: url("images/conig.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 381px;
+    margin: -120px 75px 0 0;
+    width: 289px;
 	}
 .bannerholder {    background: url('images/slideborder.png') 0 249px no-repeat #FFFFFF;
 	position: relative;
 	width: 950px;
 	}
-
+.views_slideshow_cycle_main_main_slideshow-block {}
