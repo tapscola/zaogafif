@@ -2580,9 +2580,20 @@ a.contextual-links-trigger
 background: none repeat scroll 0 0 transparent;}
 
 /** SLIDESHOW EXTRAS ***/
-.active .views-content-counter {color: #0800A5; padding: 10px 20px 10px 20px ; background:#F4F25D;}
-.views-field-counter {float:left;}
-.views-content-counter {padding: 10px 20px 10px 20px ;}
+.active .views-content-counter {
+    color: #FFFFFF; 
+	background:#214e79;
+	/*border: 1px solid #9AAEC2;*/
+	border-radius: 0 0 4px 4px;
+	}
+
+.views-field-counter { 
+    border: 1px solid #9AAEC2;
+    border-radius: 0 0 4px 4px;
+    float: left;
+    margin: 0 0 0 2px;
+}
+.views-content-counter {padding: 10px 12px 10px 12px ;}
 .views-slideshow-controls-bottom {width: 569px; padding: 0 0 0 300px;}
 
 
