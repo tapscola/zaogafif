@@ -2583,4 +2583,6 @@ background: none repeat scroll 0 0 transparent;}
 .active .views-content-counter {color: #0800A5; padding: 10px 20px 10px 20px ; background:#F4F25D;}
 .views-field-counter {float:left;}
 .views-content-counter {padding: 10px 20px 10px 20px ;}
+.views-slideshow-controls-bottom {width: 569px; padding: 0 0 0 300px;}
+
 
